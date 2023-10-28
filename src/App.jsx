@@ -19,7 +19,7 @@ class App extends Component {
       method: 'POST',
       data: JSON.stringify(data),
       headers: { 'Content-Type': 'application/json' },
-      url: api,
+      url: api,s
     })
       .then((response) => {
         console.log(response);
@@ -43,7 +43,7 @@ class App extends Component {
           <div id='overlayText'>Loading your image please wait...</div>
         </div>
         <form onSubmit={this.handleSubmit}>
-          <h1> Welcome to Stable Diffusion AI</h1>
+          <h1> Welcome to AI Image Generator</h1>
          
           <input
             autoFocus={true}
